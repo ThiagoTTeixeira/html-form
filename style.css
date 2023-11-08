@@ -1,0 +1,40 @@
+button[type="submit"]{
+    background-color: #34cc8b;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #444;
+}
+button[type="submit"]:hover,
+button[type="submit"]:focus{
+    background-color: #2ebd7f;
+}
+button[type="submit"]:active{
+    box-shadow: inset 2px 2px 1px #444;
+}
+button[type="reset"]{
+    background-color: brown;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #444;
+}
+button[type="reset"]:hover{
+    background-color: rgb(122, 30, 30);
+    transition: all .8s;
+}
+button[type="reset"]:active{
+    box-shadow: inset 2px 2px 1px #444;
+    background-color: #fff;
+}
+button:active{
+    box-shadow: inset 1px 1px 2px #444;
+}
+button:disabled,
+button:disabled:hover{
+    box-shadow: none;
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
